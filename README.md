@@ -1,4 +1,4 @@
-# The `my-package` Package
+# The `splendid-mdpi` Package
 <div align="center">Version 0.1.0</div>
 
 A short description about the project and/or client.
@@ -30,20 +30,54 @@ A short description about the project and/or client.
 These instructions will get you a copy of the project up and running on the typst web app. Perhaps a short code example on importing the package and a very simple teaser usage.
 
 ```typ
-#import "@preview/my-package:0.1.0": *
+#import "@preview/splendid-mdpi:0.1.0" as mdpi
+#import "@preview/physica:0.9.3"
 
-#show: my-show-rule.with()
-#my-func()
-```
-
-### Installation
-
-A step by step guide that will tell you how to get the development environment up and running. This should example how to clone the repo and where to (maybe a link to the typst documentation on it), along with any pre-requisite software and installation steps.
-
-```
-$ First step
-$ Another step
-$ Final step
+#show: mdpi.template.with(
+  title: [Towards Swifter Interstellar Mail Delivery],
+  authors: (
+    (
+      name: "Johanna Swift",
+      department: "Primary Logistics Department",
+      institution: "Delivery Institute",
+      city: "Berlin",
+      country: "Germany",
+      mail: "swift@delivery.de",
+    ),
+    (
+      name: "Egon Stellaris",
+      department: "Communications Group",
+      institution: "Space Institute",
+      city: "Florence",
+      country: "Italy",
+      mail: "stegonaris@space.it",
+    ),
+    (
+      name: "Oliver Liam",
+      department: "Missing Letters Task Force",
+      institution: "Mail Institute",
+      city: "Budapest",
+      country: "Hungary",
+      mail: "oliver.liam@mail.hu",
+    ),
+  ),
+  date: (
+    year: 2022,
+    month: "May",
+    day: 17,
+  ),
+  keywords: (
+    "Space",
+    "Mail",
+    "Astromail",
+    "Faster-than-Light",
+    "Mars",
+  ),
+  doi: "10:7891/120948510",
+  abstract: [
+    Recent advances in space-based document processing have enabled faster mail delivery between different planets of a solar system. Given the time it takes for a message to be transmitted from one planet to the next, its estimated that even a one-way trip to a distant destination could take up to one year. During these periods of interplanetary mail delivery there is a slight possibility of mail being lost in transit. This issue is considered so serious that space management employs P.I. agents to track down and retrieve lost mail. We propose A-Mail, a new anti-matter based approach that can ensure that mail loss occurring during interplanetary transit is unobservable and therefore potentially undetectable. Going even further, we extend A-Mail to predict problems and apply existing and new best practices to ensure the mail is delivered without any issues. We call this extension AI-Mail.
+  ]
+)
 ```
 
 ## Usage

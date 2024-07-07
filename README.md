@@ -90,9 +90,10 @@ A more in-depth description of usage. Any template arguments? A complicated exam
 #let my-complicated-example = ...
 ```
 
-## Additional Documentation and Acknowledgments
+## Media
 
-* Project folder on server:
-* Confluence link:
-* Asana board:
-* etc...
+<p align="center">
+  <img alt="Light" src="./thumbnails/1.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./thumbnails/2.png" width="45%">
+</p>

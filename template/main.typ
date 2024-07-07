@@ -41,10 +41,10 @@
     "Faster-than-Light",
     "Mars",
   ),
-  doi: "10:7891/120948510",
+  doi: "10.7891/120948510",
   abstract: [
     Recent advances in space-based document processing have enabled faster mail delivery between different planets of a solar system. Given the time it takes for a message to be transmitted from one planet to the next, its estimated that even a one-way trip to a distant destination could take up to one year. During these periods of interplanetary mail delivery there is a slight possibility of mail being lost in transit. This issue is considered so serious that space management employs P.I. agents to track down and retrieve lost mail. We propose A-Mail, a new anti-matter based approach that can ensure that mail loss occurring during interplanetary transit is unobservable and therefore potentially undetectable. Going even further, we extend A-Mail to predict problems and apply existing and new best practices to ensure the mail is delivered without any issues. We call this extension AI-Mail.
-  ]
+  ],
 )
 
 = Introduction
@@ -58,7 +58,6 @@ Our concept suggests three ways that A-Mail can be best utilized.
 
 The delivery speed of an A-Mail can be determined through this simple formula:
 
-// $ v(t) = lim_(t -> infinity) \int_t^\infty c \cdot \sqrt{t^2} \ \ dt $
 $ v(t) = lim_(t -> infinity) integral^infinity c dot sqrt(t^2)  physica.dd("t") $
 
 Building on the strong foundations of A-Mail, we extend our platform to predict problems and apply existing and new best practices to ensure the mail is delivered without any issues. We call this extension AI-Mail. AI-Mail is a new concept designed and delivered by artificially intelligent (AI) agents. The AI-Mail agents are intelligently designed to solve problems at various points in the delivery chain. These problems are related to targeting, delivery delay, tone of delivery, product information, product return, system crash, shipment error and more. AI-Mail provides a one-stop solution for A-Mail's shortcomings.

@@ -12,7 +12,9 @@ keywords = ["paper", "article", "journal", "conference"]
 categories = ["paper"]
 exclude = [
 	".github",
+	"docs",
 	"scripts",
+	"tests",
 	".typstignore",
 	"Justfile",
 ]

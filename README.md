@@ -5,10 +5,10 @@ A short description about the project and/or client.
 
 ## Template adaptation checklist
 
-- [ ] Fill out `README.md`
+- [x] Fill out `README.md`
   - Change the `my-package` package name, including code snippets
   - Check section contents and/or delete sections that don't apply
-- [ ] Check and/or replace `LICENSE` by something that suits your needs
+- [x] Check and/or replace `LICENSE` by something that suits your needs
 - [ ] Fill out `typst.toml`
   - See also the [typst/packages README](https://github.com/typst/packages/?tab=readme-ov-file#package-format)
 - [ ] Adapt Repository URLs in `CHANGELOG.md`

@@ -1,7 +1,15 @@
 # The `splendid-mdpi` Package
 <div align="center">Version 0.1.0</div>
 
-A short description about the project and/or client.
+A recreation of the MDPI template shown on the typst.app homepage.
+
+## Media
+
+<p align="center">
+  <img alt="Light" src="./thumbnails/1.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./thumbnails/2.png" width="45%">
+</p>
 
 ## Template adaptation checklist
 
@@ -85,11 +93,3 @@ A more in-depth description of usage. Any template arguments? A complicated exam
 
 #let my-complicated-example = ...
 ```
-
-## Media
-
-<p align="center">
-  <img alt="Light" src="./thumbnails/1.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="./thumbnails/2.png" width="45%">
-</p>

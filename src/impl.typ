@@ -19,6 +19,7 @@
   venue-link: "https://www.mdpi.com/journal/anawesomejournal",
   publisher: image("mdpi.svg", height: 1.2cm),
   paper-type: [Article],
+  details: auto,
   body,
 ) = {
   set page(
@@ -55,21 +56,12 @@
     #set text(7pt)
     #set par(leading: 7pt)
     #show par: set block(spacing: 18pt)
-
     *Citation:* #{authors.map(author => author.name).join("; ")}.
     #title.
     #venue-abbrv 
-    *#date.year,* #date.day, #date.month. \
+    *#date.year,* #date.day, #date.month.
     #link("https://doi.org/" + doi)
-
-    *Publisher's Note:*
-    MDPI stays neutral with regard to jurisdictional claims in published maps
-    and institutional affiliations.
-
-    *Copyright:* © 2022 by the authors.
-    Submitted to _An Awesome Journal_ for possible open access publication
-    under the terms and conditions of the Creative Commons Attribution (CC BY) license
-    (#link("https://creativecommons.org/licenses/by/4.0/")).
+    #details
   ]
 
   show: (body) => grid(

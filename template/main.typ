@@ -45,6 +45,16 @@
   abstract: [
     Recent advances in space-based document processing have enabled faster mail delivery between different planets of a solar system. Given the time it takes for a message to be transmitted from one planet to the next, its estimated that even a one-way trip to a distant destination could take up to one year. During these periods of interplanetary mail delivery there is a slight possibility of mail being lost in transit. This issue is considered so serious that space management employs P.I. agents to track down and retrieve lost mail. We propose A-Mail, a new anti-matter based approach that can ensure that mail loss occurring during interplanetary transit is unobservable and therefore potentially undetectable. Going even further, we extend A-Mail to predict problems and apply existing and new best practices to ensure the mail is delivered without any issues. We call this extension AI-Mail.
   ],
+  details: [
+
+    *Publisher's Note:*
+    MDPI stays neutral with regard to jurisdictional claims in published maps
+    and institutional affiliations.
+
+    *Copyright:* © 2022 by the authors.
+    Submitted to _An Awesome Journal_ for possible open access publication
+    under the terms and conditions of the Creative Commons Attribution (CC BY) license
+    (#link("https://creativecommons.org/licenses/by/4.0/")).]
 )
 
 = Introduction

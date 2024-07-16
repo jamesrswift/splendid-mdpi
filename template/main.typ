@@ -1,4 +1,4 @@
-#import "@preview/splendid-mdpi:0.1.0"
+#import "@preview/splendid-mdpi:0.1.1"
 #import "@preview/physica:0.9.3"
 
 #show: splendid-mdpi.template.with(

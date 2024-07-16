@@ -1,5 +1,5 @@
 # The `splendid-mdpi` Package
-<div align="center">Version 0.1.0</div>
+<div align="center">Version 0.1.1</div>
 
 A recreation of the MDPI template shown on the typst.app homepage.
 
@@ -16,7 +16,7 @@ A recreation of the MDPI template shown on the typst.app homepage.
 To use this template, simply import it as shown below:
 
 ```typ
-#import "@preview/splendid-mdpi:0.1.0"
+#import "@preview/splendid-mdpi:0.1.1"
 
 #show: splendid-mdpi.template.with(
   title: [Towards Swifter Interstellar Mail Delivery],
